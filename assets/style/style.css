@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* HEADER */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; 
+  align-items: center;
+  text-align: center;
+}
+
+.headerLinks {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  justify-content: center; 
+}
+
+.headerLinks a {
+    color: black;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.headerLinks li a.headerActive {
+    color: #ffdf00;
+}
+
+.headerLinks a:hover {
+    color: #ffdf00;
+}
+
+.headerLogo {
+    height: 150px;
+    transition: .5s ease;
+}
+
+.headerLogo:hover {
+    transform: scale(0.9) rotate(-5deg);
+}
+
+.shopButton {
+    float: right;
+    background-color: #ffdf00;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.shopButton:hover {
+    background-color: #f5d50783;
+}
+
+.shopIcon {
+    height: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    padding-top: 100px;
+}
+
+.mainFooterLogoImage {
+    width: 200px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.socialmediaFooter {
+    width: 15%;
+}
+
+.usefulLinksFooterText, .socialmediaFooterText, .discordFooterText {
+    color: gray;
+    font-weight: 200;
+}
+
+.usefulLinksFooterLinks {
+    list-style-type: none;
+    text-align: left;
+}
+
+ .socialmediaFooterLinks {
+    list-style-type: none;
+    text-align: left;
+ }
+
+.usefulLinksFooterLinks a, .socialmediaFooterLinks a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    transition: .5s ease;
+}
+
+.usefulLinksFooterLinks a:hover, .socialmediaFooterLinks a:hover {
+    color: #ffdf00;
+}
+
+.usefulLinksFooterLinks li, .socialmediaFooterLinks li {
+    padding-bottom: 5px;
+}
+
+.discordMainFooterButton {
+    background-color: #ffdf00;
+    border-radius: 20px;
+    width: 140px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.discordMainFooterButton a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discordFooterButton, .discordHeaderButton {
+    width: 40px;
+}
+
+.discordMainFooterButton:hover {
+    transform: scale(1.1);
+}
+
+.mainFooterBottom {
+    clear: both;
+}
+
+.copyrightText {
+    font-weight: 400;
+}
+
+.associatedText {
+    color: gray;
+    font-weight: 200;
+}
+
+.footerBottomLogo {
+    padding-top: 10px;
+    width: 50px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.footerBottomLogo:hover, .mainFooterLogoImage:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* SPACEWAVE FOOTER */
+
+.madeBySpacewaveStudio {
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    gap: 5px;                
+}
+
+.madeBySpacewaveStudio a {
+    text-decoration: none;
+    transition: .7s ease;
+    color: black;
+}
+
+.madeBySpacewaveStudio a:hover {
+  transform: rotate(3deg);
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.madeBySpacewaveStudioImage {
+    width: 30px;
+    height: auto;
+}
