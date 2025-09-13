@@ -34,11 +34,11 @@ header {
 }
 
 .headerLinks li a.headerActive {
-    color: #ffdf00;
+    color: #fee300;
 }
 
 .headerLinks a:hover {
-    color: #ffdf00;
+    color: #fee300;
 }
 
 .headerLogo {
@@ -52,7 +52,7 @@ header {
 
 .shopButton {
     float: right;
-    background-color: #ffdf00;
+    background-color: #fee300;
     color: white;
     border-radius: 10px;
     width: 200px;
@@ -79,22 +79,24 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
-    width: 60%;
+    gap: 20px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     clear: both;
-    padding-top: 100px;
 }
 
 .mainFooterLogoImage {
-    width: 200px;
+    width: 175px;
     transition: 0.5s ease;
     cursor: pointer;
 }
 
-.socialmediaFooter {
+.socialmediaFooter, .usefulLinksFooter, .discordFooter, .mainFooterLogo {
     width: 15%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
 }
 
 .usefulLinksFooterText, .socialmediaFooterText, .discordFooterText {
@@ -105,11 +107,15 @@ footer {
 .usefulLinksFooterLinks {
     list-style-type: none;
     text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
  .socialmediaFooterLinks {
     list-style-type: none;
     text-align: left;
+    padding: 0;
+    margin: 0;
  }
 
 .usefulLinksFooterLinks a, .socialmediaFooterLinks a {
@@ -120,7 +126,7 @@ footer {
 }
 
 .usefulLinksFooterLinks a:hover, .socialmediaFooterLinks a:hover {
-    color: #ffdf00;
+    color: #fee300;
 }
 
 .usefulLinksFooterLinks li, .socialmediaFooterLinks li {
@@ -128,7 +134,7 @@ footer {
 }
 
 .discordMainFooterButton {
-    background-color: #ffdf00;
+    background-color: #fee300;
     border-radius: 20px;
     width: 140px;
     transition: 1s ease;
@@ -165,11 +171,11 @@ footer {
 }
 
 .footerBottomLogo {
-    padding-top: 10px;
     width: 50px;
     transition: 0.5s ease;
     cursor: pointer;
 }
+
 
 .footerBottomLogo:hover, .mainFooterLogoImage:hover{
     transform: scale(1.1) rotate(5deg);
@@ -178,10 +184,11 @@ footer {
 /* SPACEWAVE FOOTER */
 
 .madeBySpacewaveStudio {
+    clear: both;
     display: flex;
     align-items: center;      
     justify-content: center;  
-    gap: 5px;                
+    gap: 5px;              
 }
 
 .madeBySpacewaveStudio a {
